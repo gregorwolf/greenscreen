@@ -2,6 +2,9 @@
   "couch": {
     "host": "http://localhost",
     "port": 5984,
+    "options": {
+      "auth": { "username": "", "password": "" }
+    },
     "db": "gscreen"
   },
   "server": {
